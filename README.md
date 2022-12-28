@@ -5,7 +5,12 @@ Repository for paper "Biomedical Entity Linking: A Survey".
 
 ## Abstract
 
-Biomedical entity linking aims to map biomedical mentions to nor- malized entities in a given Knowledge Base, e.g. the Unified Medical Language System (UMLS). While entity linking tasks have been applied in journalism and social media and achieved great success, many more challenges remain to be overcome in the biomedical field. In this sur- vey, we categorize biomedical EL approaches into rule-based, machine learning (ML), and deep learning (DL) models based on the develop- ment of the modeling paradigm, and provide a comprehensive review of each approach. Specifically, we group the entity linking processes into four categories: joint entity recognition and linking, global entity linking, cross-lingual architectures, and model efficiency optimization. Moreover, we incorporate five commonly used biomedical entity linking datasets and provide performance analysis of entity linking methods over these datasets. Finally, we discuss the limitations of existing methods and highlight some promising future directions.
+Biomedical Entity Linking (BM-EL) task, which aims to match biomedical mentions in articles to entities in a certain knowledge base (e.g., the Unified Medical Language System), draws dramatic attention in recent years. BM-EL can help to disambiguate medical terms and link to rich semantic information in the biomedical knowledge base, which can act as an essential means for many downstream applications.
+Although entity linking tasks have been investigated in the general domain and achieved great success, many challenges remain in the biomedical field, for instance,  highly complex terminology, less training data, and entity ambiguity.
+In this survey, we categorize BM-EL methods into rule-based, machine learning, and deep learning models according to the development of the model paradigm and provide a comprehensive review of each approach.
+In-depth study of current BM-EL efforts, we group the model architectures into four categories: joint entity recognition and linking, graph-based global entity disambiguation, cross-lingual architectures, and model-efficiency improvement.
+We further introduce six well-established datasets that are commonly used for BM-EL tasks. Furthermore, we present a comparison of the different methods and discuss their advantages and disadvantages.
+Finally, we discuss the limitations of existing methods for BM-EL and discuss promising future research directions.
 
 ## Model Comparison
 
