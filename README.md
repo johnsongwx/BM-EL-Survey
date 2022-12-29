@@ -12,17 +12,17 @@ In-depth study of current BM-EL efforts, we group the model architectures into f
 We further introduce six well-established datasets that are commonly used for BM-EL tasks. Furthermore, we present a comparison of the different methods and discuss their advantages and disadvantages.
 Finally, we discuss the limitations of existing methods for BM-EL and discuss promising future research directions.
 
-## Model Comparison
-
-[graphics]
-
-> TODO: Complete Model Comparison.
+![fig1](./assets/fig1.png)
 
 ## Dataset
 
-According to different corpus sources, we classify the datasets commonly used for BM-EL tasks into the following types: biomedical literature, EMRs, social media datasets, etc. These corpora have various text features. For example, literature has more complex proper nouns, more abbreviations in electronic medical records, and more colloquial expressions in social media data. We summarize the statistical information of different datasets in Table \ref{dataset_summarization} and introduce their details as follows.
+According to different corpus sources, we classify the datasets commonly used for BM-EL tasks into the following types: biomedical literature, EMRs, social media datasets, etc. These corpora have various text features. For example, literature has more complex proper nouns, more abbreviations in electronic medical records, and more colloquial expressions in social media data. We summarize the statistical information of different datasets in the table below and introduce their details as follows.
+
+![table5](./assets/table5.png)
 
 ### MedMentions dataset
+
+> TODO: Add links here.
 
 It is one of the largest BM-EL datasets  available, and includes 4392  English abstracts from PubMed with contains 352,496 mentions. Each mention is linked to a unique entity in the UMLS knowledge base. Researchers usually use the St21pv subset, including fewer mentions, CUIs, and a total of 21 semantic types of entities. For the partitioning of the dataset, researchers follow the official 60%/20%/20% ratio to obtain the train/dev/test set.
 
@@ -41,4 +41,22 @@ Unlike the datasets mentioned above, ShARe/CLEF is an electronic medical-record 
 ### COMETA and AskAPatient
 
 COMETA and AskAPatient are datasets obtained from social media and forums. More types of entity-linking datasets in the biomedical domain are attracting researchers’ interest. Unlike English literature and electronic medical-record datasets, as the general public does not have a rich professional background, their descriptions are relatively vague and imprecise. Their language styles are also relatively uncritical, posing new challenges for BM-EL models.
+
+
+
+
+
+## Model Comparison
+
+
+
+![table6](./assets/table6.png)
+
+
+
+![table7](./assets/table7.png)
+
+
+
+> TODO: Complete Model Comparison.
 
