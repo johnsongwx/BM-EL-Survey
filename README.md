@@ -1,7 +1,7 @@
 # BM-EL-Survey
 Repository for paper "Biomedical Entity Linking: A Survey".
 
-> This repository is still under constructing.
+
 
 ## Abstract
 
@@ -20,11 +20,13 @@ According to different corpus sources, we classify the datasets commonly used fo
 
 ![table5](./assets/table5.png)
 
-### MedMentions
+### MedMentions dataset
 
 > Mohan, S., Li, D.: MedMentions: A Large Biomedical Corpus Annotated with UMLS Concepts. arXiv (2019)
 
 It is one of the largest BM-EL datasets  available, and includes 4392  English abstracts from PubMed with contains 352,496 mentions. Each mention is linked to a unique entity in the UMLS knowledge base. Researchers usually use the St21pv subset, including fewer mentions, CUIs, and a total of 21 semantic types of entities. For the partitioning of the dataset, researchers follow the official 60%/20%/20% ratio to obtain the train/dev/test set.
+
+Link: https://github.com/chanzuckerberg/MedMentions
 
 ### Biocreative V CDR dataset
 
@@ -32,11 +34,15 @@ It is one of the largest BM-EL datasets  available, and includes 4392  English a
 
 It is widely used in Named Entity Recognition and EL tasks. It is a corpus of the biomedical literature derived from 1500 English language articles in PubMed, containing 4409 annotated chemicals and 5818 annotated disease entities. All the mentions in the dataset are linked to MeSH (a subset of UMLS). The articles are equally distributed into train/dev/test sets.
 
+Link: https://biocreative.bioinformatics.udel.edu/tasks/biocreative-v/track-3-cdr/
+
 ### NCBI disease corpus
 
 > Do ̆gan, R.I., Leaman, R., Lu, Z.: Ncbi disease corpus: A resource for dis- ease name recognition and concept normalization. Journal of Biomedical Informatics 47, 1–10 (2014)
 
 It is an extensively used entity-linking dataset obtained from biomedical literature. The dataset contains 793 abstracts of the biomedical literature, where each mention is linked to MEDIC ontology. Notably, in the NCBI dataset, each annotation mention is linked to an entity in the knowledge base. A typical dataset split division is 593/100/100.
+
+Link: https://www.ncbi.nlm.nih.gov/CBBresearch/Dogan/DISEASE/
 
 ### ShARe/CLEF eHealth Challenge corpus
 
@@ -52,6 +58,10 @@ Unlike the datasets mentioned above, ShARe/CLEF is an electronic medical-record 
 
 COMETA and AskAPatient are datasets obtained from social media and forums. More types of entity-linking datasets in the biomedical domain are attracting researchers’ interest. Unlike English literature and electronic medical-record datasets, as the general public does not have a rich professional background, their descriptions are relatively vague and imprecise. Their language styles are also relatively uncritical, posing new challenges for BM-EL models.
 
+Link for COMETA: https://github.com/cambridgeltl/cometa
+
+Link for AskAPatient: http://dx.doi.org/10.5281/zenodo.55013
+
 
 
 ## Model Comparison
@@ -63,3 +73,4 @@ Detailed analysis please refer to the paper.
 ![table6](./assets/table6.png)
 
 ![table7](./assets/table7.png)
+
